@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud_config_server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lnksgl/config-server
+          clone-on-start: true
+
+server:
+  port: 7076
